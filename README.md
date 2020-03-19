@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository contains a dataset of epidemiological case reports with entity labeling which can be used for information extraction. 
+This repository contains a dataset (named `ECR-COVID-19`) of epidemiological case reports with entity labeling which can be used for information extraction. 
 
 The motivation of creating and contributing the dataset is to trigger the research on epidemiologic investigation analysis and automation. COVID-19 is threatening the health of the entire human population. In order to control the spread of the disease, epidemiological investigations should be conducted, to trace the infection source of each confirmed patient and isolate their close contacts. However, the analysis on a mass of case reports in epidemiological investigation is extremely time-consuming and labor-intensive. Using the latest NLP technology to accelerate the information extraction from epidemiological case reports should be a feasible and good way. So we prepared the dataset, meanwhile we also submitted a paper to AMIA 2020, the title is "Accelerating Epidemiological Investigation Analysis by Using NLP and Knowledge Reasoning: A Case Study on COVID-19". 
 
