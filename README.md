@@ -7,10 +7,8 @@ epidemiological case reports.
 If you use this dataset, please cite our paper: 
 
 ```
-Jian Wang, Ke Wang, Jing Li, Jianmin Jiang, Yanfei Wang, Jing Mei
-Accelerating Epidemiological Investigation Analysis by Using NLP and
-Knowledge Reasoning: A Case Study on COVID-19
-AMIA 2020, submission
+Wang J, Wang K, Li J, Jiang JM, Wang YF, Mei J, Accelerating Epidemiological Investigation Analysis by Using NLP and
+Knowledge Reasoning: A Case Study on COVID-19, AMIA 2020. (submission)
 ```
 
 
