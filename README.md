@@ -6,10 +6,12 @@ This repository contains a dataset of entity, relation and event recognition on
 epidemiological case reports.
 If you use this dataset, please cite our paper: 
 
-```Jian Wang, Ke Wang, Jing Li, Jianmin Jiang, Yanfei Wang, Jing Mei
+```
+Jian Wang, Ke Wang, Jing Li, Jianmin Jiang, Yanfei Wang, Jing Mei
 Accelerating Epidemiological Investigation Analysis by Using NLP and
 Knowledge Reasoning: A Case Study on COVID-19
-AMIA 2020, submission```
+AMIA 2020, submission
+```
 
 
 We collected the epidemiological case reports from Dec 19, 2019
