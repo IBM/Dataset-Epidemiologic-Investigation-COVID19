@@ -20,11 +20,9 @@ Knowledge Reasoning: A Case Study on COVID-19, AMIA 2020. (submission)
 
 All the data (train, validation, test) are in json format. For each line of the data, it's 
 a case report with following json keys:
-
-text: The original plain text of the case report
-entities: All labelled entities in the text. The elements of the entity is start offset in 
-text, end offset and the entity type. Entity types include: 
-
+(1) doc_id : the ID of current document
+(2) text: the original plain text of the case report
+(3) entities: All labelled entities in the text. The elements of the entity is “start offset” in text, “end offset” and “entity type”. Entity types include: 
 - 'LocalID' : the patient ID in a city
 - 'Name' : the family name of the patient if there is, 
 - 'Age' : the age of the patient
@@ -50,4 +48,4 @@ text, end offset and the entity type. Entity types include:
 - 'Vehicle' : a vehicle, such as train, bus, car, ship, airplan and so on.
 - 'SocialRelation' : Social relations, such as relatives relation, classmate, colleague and so on.
 - 'Negation' : negation words
-
+(4) patient, relations and events : The three json elements define the structure of three tuples: Patient tuple, Social relation tuple and Event tuple. They seperately include the attributes for a patient, the attributes for social relations and the attributes for events. Actually we are using tuple structure to define the relations among named entities. 
