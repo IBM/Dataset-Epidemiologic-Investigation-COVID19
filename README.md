@@ -1,4 +1,4 @@
-#  Dataset-Epidemiologic-Investigation-COVID19
+#  The Dataset of Epidemiological Case Reports for COVID-19
 
 ## Introduction
 
