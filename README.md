@@ -24,7 +24,7 @@ Each data file (train.txt, valid.txt, test.txt) in the folder `ECR-COVID-19` inc
 
 (2) text: the original plain text of the case report
 
-(3) entities: All labelled entities in the text. The elements of the entity is “start offset” in text, “end offset” and “entity type”. Entity types include: 
+(3) entities: All labelled entities in the "text". In each entity, there are two numbers and one string, the first number is the starting position of the entity in "text", the second number is the ending position. The entity does not include the charactor at the ending position. The string indicates the entity type of the entities. Entity types include: 
 - 'LocalID' : the patient ID in a city
 - 'Name' : the family name of the patient if there is, 
 - 'Age' : the age of the patient
