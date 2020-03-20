@@ -18,8 +18,7 @@ Knowledge Reasoning: A Case Study on COVID-19, AMIA 2020. (submission)
 
 ## Data Format
 
-All the data (train, validation, test) in the folder `ECR-COVID-19` are in json format. For each line of the data, it's 
-a case report with following json keys:
+Each data file (train.txt, valid.txt, test.txt) in the folder `ECR-COVID-19` includes a list of lines. Each line is a string in JSON format and includes a case report and corresponding labels. The following are the description of json keys:
 
 (1) doc_id : the ID of current document
 
