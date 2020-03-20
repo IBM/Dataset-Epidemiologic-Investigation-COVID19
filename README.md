@@ -52,3 +52,176 @@ Each data file (train.txt, valid.txt, test.txt) in the folder `ECR-COVID-19` inc
 - 'Negation' : negation words
 
 (4) patient, relations and events : The three json elements define the structure of three tuples: Patient tuple, Social relation tuple and Event tuple. They seperately include the attributes for a patient, the attributes for social relations and the attributes for events. Actually we are using tuple structure to define the relations among named entities. 
+
+The following is one example of these lines
+```
+{
+    "doc_id": 6886,
+    "text": "患者二十九，女，56岁，现住瑞安，无武汉外出史或旅游史，与确诊病例有接触史，1月20日发病，咳嗽咳痰、肌肉酸痛、气促，现在定点医疗机构隔离治疗。",
+    "entities": [
+        [
+            59,
+            61,
+            "Date"
+        ],
+        [
+            14,
+            16,
+            "ResidencePlace"
+        ],
+        [
+            67,
+            71,
+            "Inpatient"
+        ],
+        [
+            61,
+            67,
+            "Location"
+        ],
+        [
+            56,
+            58,
+            "Symptom"
+        ],
+        [
+            51,
+            55,
+            "Symptom"
+        ],
+        [
+            48,
+            50,
+            "Symptom"
+        ],
+        [
+            46,
+            48,
+            "Symptom"
+        ],
+        [
+            43,
+            45,
+            "Onset"
+        ],
+        [
+            38,
+            43,
+            "Date"
+        ],
+        [
+            28,
+            37,
+            "InfectionOriginContact"
+        ],
+        [
+            17,
+            27,
+            "InfectionOriginContact"
+        ],
+        [
+            8,
+            11,
+            "Age"
+        ],
+        [
+            6,
+            7,
+            "Gender"
+        ],
+        [
+            0,
+            5,
+            "LocalID"
+        ]
+    ],
+    "patient": [
+        [
+            0,
+            5,
+            "LocalID"
+        ],
+        [
+            14,
+            16,
+            "ResidencePlace"
+        ],
+        [
+            8,
+            11,
+            "Age"
+        ],
+        [
+            6,
+            7,
+            "Gender"
+        ],
+        [
+            17,
+            27,
+            "InfectionOriginContact"
+        ],
+        [
+            28,
+            37,
+            "InfectionOriginContact"
+        ]
+    ],
+    "relations": [],
+    "events": [
+        {
+            "type": [
+                43,
+                45,
+                "Onset"
+            ],
+            "tuple": [
+                [
+                    38,
+                    43,
+                    "Date"
+                ],
+                [
+                    46,
+                    48,
+                    "Symptom"
+                ],
+                [
+                    48,
+                    50,
+                    "Symptom"
+                ],
+                [
+                    51,
+                    55,
+                    "Symptom"
+                ],
+                [
+                    56,
+                    58,
+                    "Symptom"
+                ]
+            ]
+        },
+        {
+            "type": [
+                67,
+                71,
+                "Inpatient"
+            ],
+            "tuple": [
+                [
+                    59,
+                    61,
+                    "Date"
+                ],
+                [
+                    61,
+                    67,
+                    "Location"
+                ]
+            ]
+        }
+    ]
+}
+```
